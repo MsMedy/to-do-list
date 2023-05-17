@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/691/896/original/blank-spiral-notepad-notepad-with-bookmarks-template-for-text-for-web-design-or-advertising-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 700px;
+    right: 30px;
+    font-family: 'Pacifico', cursive;
+}   
+
+div{
+  width: 100%;
+  text-align: center;
+}
+
+
+body {
+    background-color: lightsteelblue;
+}
+
+
+#completed-items{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    column-gap: 60px;
+
+    }
+    
+
+
+
+
+

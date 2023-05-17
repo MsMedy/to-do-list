@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="To_Do_List.css">
+    
+    <!--Google Font: Pacifico-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div id="bigDiv" class="flexbox">
+        <!--Title-->
+        
+        
+        <h1>To Do List</h1>
+        
+        <form>
+        <!--To Do List Text Bar-->
+            <label for="myInput"> To-Do Item: </label>
+            <input type="text" value="Type To-Do Item Here" id="myInput">
+        </form>
+        
+        <!--Button to Add Entry-->
+        <button id="button">
+            Add Item
+        </button>
+
+        <button id="button2">
+            Delete Item(s)
+        </button>
+
+        <div id="completed-items">
+            <p>Completed Items</p>
+
+        </div>
+            
+      
+    
+            <!--To Do List-->
+            
+        <div id="list">
+            <ul class="list-item" id="list-item2" style="display:none"><input type="checkbox" class="checkbox" id="checkbox"></ul>
+        </div>
+        
+
+    </div>
+
+
+<script src="To_Do_List.js"></script>
+</body>
+
+</html>
+
+
+
+
+
